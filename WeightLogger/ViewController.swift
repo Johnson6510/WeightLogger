@@ -4,6 +4,8 @@
 //
 //  Created by 黃健偉 on 2017/12/23.
 //  Copyright © 2017年 黃健偉. All rights reserved.
+//  https://www.youtube.com/watch?v=cAQtOsfkD5A
+//  https://www.youtube.com/watch?v=dpOSf39t_VA
 //
 
 import UIKit

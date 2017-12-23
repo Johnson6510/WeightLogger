@@ -13,6 +13,9 @@
 		BD387C8C1FEDBF0E0033A668 /* WeightLogger.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BD387C8A1FEDBF0E0033A668 /* WeightLogger.xcdatamodeld */; };
 		BD387C8E1FEDBF0E0033A668 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD387C8D1FEDBF0E0033A668 /* Assets.xcassets */; };
 		BD387C911FEDBF0E0033A668 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD387C8F1FEDBF0E0033A668 /* LaunchScreen.storyboard */; };
+		BD5455A51FEE3E3200232FB2 /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = BD5455A41FEE3E3200232FB2 /* Base.lproj */; };
+		BDC1967B1FEE0528002066E8 /* WeightLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC1967A1FEE0528002066E8 /* WeightLog.swift */; };
+		BDC1967D1FEE0555002066E8 /* EnterYourWeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC1967C1FEE0555002066E8 /* EnterYourWeight.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		BD387C8D1FEDBF0E0033A668 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD387C901FEDBF0E0033A668 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD387C921FEDBF0E0033A668 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD5455A41FEE3E3200232FB2 /* Base.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Base.lproj; sourceTree = "<group>"; };
+		BDC1967A1FEE0528002066E8 /* WeightLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightLog.swift; sourceTree = "<group>"; };
+		BDC1967C1FEE0555002066E8 /* EnterYourWeight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterYourWeight.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +62,11 @@
 		BD387C821FEDBF0E0033A668 /* WeightLogger */ = {
 			isa = PBXGroup;
 			children = (
+				BD5455A41FEE3E3200232FB2 /* Base.lproj */,
 				BD387C831FEDBF0E0033A668 /* AppDelegate.swift */,
 				BD387C851FEDBF0E0033A668 /* ViewController.swift */,
+				BDC1967A1FEE0528002066E8 /* WeightLog.swift */,
+				BDC1967C1FEE0555002066E8 /* EnterYourWeight.swift */,
 				BD387C871FEDBF0E0033A668 /* Main.storyboard */,
 				BD387C8D1FEDBF0E0033A668 /* Assets.xcassets */,
 				BD387C8F1FEDBF0E0033A668 /* LaunchScreen.storyboard */,
@@ -128,6 +137,7 @@
 			files = (
 				BD387C911FEDBF0E0033A668 /* LaunchScreen.storyboard in Resources */,
 				BD387C8E1FEDBF0E0033A668 /* Assets.xcassets in Resources */,
+				BD5455A51FEE3E3200232FB2 /* Base.lproj in Resources */,
 				BD387C891FEDBF0E0033A668 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,7 +149,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDC1967B1FEE0528002066E8 /* WeightLog.swift in Sources */,
 				BD387C861FEDBF0E0033A668 /* ViewController.swift in Sources */,
+				BDC1967D1FEE0555002066E8 /* EnterYourWeight.swift in Sources */,
 				BD387C841FEDBF0E0033A668 /* AppDelegate.swift in Sources */,
 				BD387C8C1FEDBF0E0033A668 /* WeightLogger.xcdatamodeld in Sources */,
 			);
